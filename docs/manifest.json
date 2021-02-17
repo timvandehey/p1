@@ -1,9 +1,9 @@
 {
-  "name": "pwaTemplate",
-  "short_name": "pwaTemplate",
+  "name": "p1",
+  "short_name": "p1",
   "icons": [
     {
-      "src": "images/icon-128.png",
+      "src": "images/logo-128.png",
       "sizes": "128x128",
       "type": "image/png"
     },
@@ -23,8 +23,8 @@
       "type": "image/png"
     },
     {
-      "src": "images/logo-256.png",
-      "sizes": "256x256",
+      "src": "images/logo-228.png",
+      "sizes": "228x228",
       "type": "image/png"
     },
     {
