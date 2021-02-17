@@ -19,14 +19,16 @@ let myObj = {
 	}
 };
 
-log(13)
-myObj = logMethods(myObj)
-log(14)
-myObj.a = 9
-const x = myObj.multiply(3, 5)
-log(myObj.squared(4))
-log(15)
-log(166, { x, }, myObj.a)
+// log(13)
+// myObj = logMethods(myObj)
+// log(14)
+// myObj.a = 9
+// const x = myObj.multiply(3, 5)
+// log(myObj.squared(4))
+// log(15)
+// log(166, { x, }, myObj.a)
+
+localStorage.setItem('test', 45)
 
 log(prod ? 'in Production' : 'In Development')
 document.title = `${prod ? '' : 'Dev - '}${document.title}`
