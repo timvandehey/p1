@@ -1,7 +1,10 @@
 <script>
+	import { userLoggedIn } from "./google";
+	import Google from "./Google.svelte";
 </script>
 
-<h1>Svelte PWA Template</h1>
+<Google />
+<h1>P1 {$userLoggedIn}</h1>
 
 <style>
 	:global(:root) {

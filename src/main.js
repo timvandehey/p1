@@ -28,8 +28,6 @@ let myObj = {
 // log(15)
 // log(166, { x, }, myObj.a)
 
-localStorage.setItem('test', 45)
-
 log(prod ? 'in Production' : 'In Development')
 document.title = `${prod ? '' : 'Dev - '}${document.title}`
 export default app;
